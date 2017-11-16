@@ -2,7 +2,6 @@ import msvcrt
 kbhit = msvcrt.kbhit()
 
 
-kbhit = msvcrt.kbhit()
 x = input('enter something: ')
 if x == 'hi':
     print('hi back')
@@ -10,6 +9,6 @@ if x == 'hi':
 
 
 answer = input("")
-if answer == chr(" "):
+if answer == (" "):
     response = ("You have grabbed the torch.")
     kbhit
